@@ -15,3 +15,18 @@ My name is Gena. I work as a design engineer. This is stage 0 (2024q2) - my new(
 ## Skills
 
 Basic CSS, HTML, JS, git.
+
+## Code
+
+```
+function convertHashToArray(hash){
+  let arr = [];
+  for(let key in hash) arr.push([key, hash[key]]);
+  return arr.sort();
+}
+
+```
+
+## Experience
+
+I do not have work experience
