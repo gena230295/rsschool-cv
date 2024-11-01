@@ -30,3 +30,15 @@ function convertHashToArray(hash){
 ## Experience
 
 I do not have work experience
+
+## Education
+
+- Belarusian-Russian University 2012-2017
+- Completed course:
+  - JS/FE Pre-School 2022Q2
+  - JavaScript/Front-end 2022Q3
+  - JS/FE Pre-School 2022Q4
+
+## English
+
+- А2 (Elementary)
