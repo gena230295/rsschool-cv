@@ -1,9 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>My profile</title>
   </head>
-  <body></body>
+  <body class="body">
+    <header class="header">
+      <nav class="nav">
+        <ul class="header-list">
+          <li><a class="header-text" href="#about">About me</a></li>
+          <li><a class="header-text" href="#contactsID">Contacts</a></li>
+          <li><a class="header-text" href="#skillsID">Skills</a></li>
+          <li><a class="header-text" href="#codeID">Code</a></li>
+          <li><a class="header-text" href="#projectsID">My projects</a></li>
+          <li><a class="header-text" href="#educationID">Education</a></li>
+          <li><a class="header-text" href="#englishID">English</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="image-description">
+        <div class="image-div">
+          <img class="image" src="./assets/photo.jpg" alt="my-photo" />
+        </div>
+        <div class="desctption">
+          <h1 class="name">HENADZI SALAUYEU</h1>
+          <div class="aboute-me-contacts">
+            <h2 id="about" class="abaut-title">About me</h2>
+            <p class="about">
+              My name is Gena. I work as a design engineer. This is stage 0 (2024q2) - my new(3rd)
+              attempt to complete the entire course. I hope it attempt will finally be successful.
+              Interests: I like to read books, go on long hikes, and sometimes ride bicycles.
+            </p>
+            <div id="contactsID" class="contacts">
+              <h2 class="contacts-title">Contacts</h2>
+              <ul class="contacts-list">
+                <li><b>mail:</b> gena23solov@gmail.com</li>
+                <li><b>discord:</b> gena230295</li>
+                <li><b>country:</b> Belarus</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="other-description">
+        <div id="skillsID" class="section-description">
+          <h2 class="other-elements">Skills</h2>
+          <p class="text-description">Basic CSS, HTML, JS, git.</p>
+        </div>
+        <div id="codeID" class="section-description">
+          <h2 class="other-elements">Code</h2>
+          <code class="text-description-code">
+            function convertHashToArray(hash) {<br />
+            &nbsp;&nbsp;let arr = [];<br />
+            &nbsp;&nbsp;for (let key in hash) {<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;arr.push([key, hash[key]]);<br />
+            &nbsp;&nbsp;}<br />
+            &nbsp;&nbsp;return arr.sort();<br />
+            }<br />
+          </code>
+        </div>
+        <div id="projectsID" class="section-description">
+          <h2 class="other-elements">My projects</h2>
+          <ul class="project-section">
+            <li>
+              <a
+                class="project-links"
+                href="https://rolling-scopes-school.github.io/gena230295-JSFE2023Q4/hangman/"
+                >Hangman</a
+              >
+            </li>
+            <li>
+              <a
+                class="project-links"
+                href="https://rolling-scopes-school.github.io/gena230295-JSFE2023Q1/shelter/main/"
+                >Shelter</a
+              >
+            </li>
+            <li>
+              <a
+                class="project-links"
+                href="https://rolling-scopes-school.github.io/gena230295-JSFE2022Q3/Gem-Puzzle/"
+                >Gem Puzzle</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div id="educationID" class="section-description">
+          <h2 class="other-elements">Education</h2>
+          <ul class="education-list">
+            <li>Belarusian-Russian University 2012-2017</li>
+            <li>
+              Completed course: <br />
+              &nbsp;JS/FE Pre-School 2022Q2<br />
+              &nbsp;JavaScript/Front-end 2022Q3<br />
+              &nbsp;JS/FE Pre-School 2022Q4<br />
+            </li>
+          </ul>
+        </div>
+        <div id="englishID" class="section-description">
+          <h2 class="other-elements">English</h2>
+          <p class="text-description">А2 (Elementary)</p>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="links-footer">
+        <div class="git-link">
+          <a class="git-link-text" href="https://github.com/gena230295"
+            ><img src="./assets/gitHubIcon.svg" alt="github"
+          /></a>
+          <a class="git-link-text" href="https://github.com/gena230295">GitHub</a>
+        </div>
+        <p class="year-text">2024</p>
+        <div class="rs-div">
+          <a class="rs-link" href="https://rs.school/courses/javascript-ru">
+            <img class="img-rs-school" src="./assets/rsschoolIcon.svg" alt="rsschool" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
