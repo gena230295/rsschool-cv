@@ -1,0 +1,215 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background: lemonchiffon;
+}
+
+.header {
+  background: #000000;
+  width: 100%;
+}
+
+.nav {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+
+.header-text {
+  font-family: serif;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 32px;
+  transition: 0.5s;
+}
+
+.header-text:hover {
+  color: #c88624;
+}
+
+.main {
+  max-width: 1024px;
+  margin: 20px auto 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.image-description {
+  display: flex;
+  gap: 30px;
+}
+
+.image-div {
+  max-width: 350px;
+}
+
+.image {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.desctption {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.name {
+  text-align: center;
+  font-family: serif;
+  color: rgb(84, 70, 46);
+  font-size: 32px;
+}
+
+.abaut-title {
+  font-family: serif;
+  color: rgb(84, 70, 46);
+  font-size: 24px;
+}
+
+.about {
+  margin-top: 15px;
+  font-family: cursive;
+  color: rgb(84, 70, 46);
+  font-size: 16px;
+}
+
+.contacts {
+  margin-top: 15px;
+}
+
+.contacts-title {
+  font-family: serif;
+  color: rgb(84, 70, 46);
+  font-size: 24px;
+}
+
+.contacts-list {
+  margin-top: 15px;
+  font-family: cursive;
+  color: rgb(84, 70, 46);
+  font-size: 16px;
+  list-style-type: none;
+}
+.other-description {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section-description {
+  width: 400px;
+  height: 200px;
+  border: 2px solid rgb(93, 23, 23);
+  padding: 10px 20px 0 20px;
+  border-radius: 20px;
+}
+
+.other-elements {
+  font-family: serif;
+  color: rgb(84, 70, 46);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-description {
+  font-family: cursive;
+  color: rgb(84, 70, 46);
+  font-size: 16px;
+}
+
+.project-section {
+  list-style-type: none;
+}
+
+.project-links {
+  font-family: cursive;
+  color: rgb(84, 70, 46);
+  font-size: 16px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.project-links:hover {
+  color: rgb(196, 7, 7);
+}
+
+.education-list {
+  font-family: cursive;
+  color: rgb(84, 70, 46);
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.footer {
+  margin-top: 20px;
+  background: #d5d3b1;
+  width: 100%;
+  padding: 20px;
+}
+
+.links-footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.git-link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.git-link-text {
+  font-family: cursive;
+  color: rgb(84, 70, 46);
+  font-size: 16px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.git-link-text:hover {
+  color: rgb(196, 7, 7);
+}
+
+.year-text {
+  font-family: cursive;
+  color: rgb(84, 70, 46);
+  font-size: 16px;
+}
+
+.img-rs-school {
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .image-description {
+    flex-wrap: wrap;
+  }
+
+  .image-div {
+    margin: 0 auto;
+  }
+}
